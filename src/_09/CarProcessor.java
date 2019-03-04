@@ -27,7 +27,7 @@ public class CarProcessor {
         System.out.println("\nCarsByProductionYearWithMorePrice =>" + productionYear);
 
         for (Car car : cars) {
-            if (car.productionYear = productionYear && car.price > 3000) {
+            if (car.productionYear == productionYear && car.price > 3000) {
                 printCar(car);
             }
         }
