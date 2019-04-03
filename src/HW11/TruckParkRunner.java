@@ -26,7 +26,7 @@ public class TruckParkRunner {
         System.out.println(truckPark.toString());
         System.out.println("Truck find by speed:");
         try {
-            Vehicle[] ttucksBySpeed = truckPark.findTrucksBySpeed(0, -2);
+            Vehicle[] trucksBySpeed = truckPark.findTrucksBySpeed(0, -2);
             for (Vehicle vehicle : trucksBySpeed) {
                 System.out.println(vehicle.toString());
             }
