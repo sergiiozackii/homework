@@ -1,2 +1,0 @@
-ConstructionTruck,95000,20,130,700;
-MilitaryTruck,70000,18,150,600
